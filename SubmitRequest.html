@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- 设置字符编码为 UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 使页面适配不同设备 适应不同页宽-->
+    <title>Housing Maintenance Management Platform</title> <!-- 网页标题 -->
+    <link rel="stylesheet" href="Stylish.css"> <!-- 引入外部样式文件 -->
+</head>
+<body>
+    <h2>Submit Repair or Maintenance Request</h2> <!-- 提交请求的标题 -->
+    <form>
+        <div><p>
+            <label for="description">Name</label>
+            <textarea id="description" required>Example: William</textarea>
+        </p></div>
+        <div><p>
+            <label for="description">Address</label>
+            <textarea id="description" required>Examlpe: Okland Queen Street</textarea>
+        </p></div>
+        <div><p>
+            <label for="description">Contact</label>
+            <textarea id="description" required>Examlpe: phone number</textarea>
+        </p></div>
+        <div><p> 
+            <label for="description">Probelm Description</label> <!-- 描述标签 -->
+            <textarea id="description" required>Pipes in Kitchen leaks</textarea> <!-- 问题描述输入框 -->
+        </p></div>
+
+        <div><p>
+        <label for="image">上传图片:</label> <!-- 图片上传标签 -->
+        <input type="file" id="image"> <!-- 图片上传输入框 -->
+        </p></div>
+        
+        <div><p>
+        <button type="submit">提交请求</button> <!-- 提交按钮 -->
+        </p></div>
+    </form>
+</body>
+</html>
